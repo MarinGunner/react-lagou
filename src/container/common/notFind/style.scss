@@ -3,35 +3,35 @@
     height: 100%;
     background: lavender;
     H2{
-        margin: 10px 0 0 10px;
+        margin: .266667rem 0 0 .266667rem;
         font-family: '楷体';
         font-weight: normal;
     }
 
     .content {
-        width: 230px;
-        height: 100px;
-        border-radius: 10px;
+        width: 14.375rem;
+        height: 2.666667rem;
+        border-radius: .266667rem;
         background: lightgoldenrodyellow;
         position: absolute;
         left: 50%;
         top: 50%;
-        margin: -100px 0 0 -100px;
+        margin: -2.666667rem 0 0 -2.666667rem;
     }
 
     h3 {
-        font-size: 30px;
+        font-size: .8rem;
         color: #666;
         font-family: '楷体';
         text-align: center;
-        line-height: 50px;
+        line-height: 1.333333rem;
     }
 
     p {
         font-family: '楷体';
-        font-size: 16px;
+        font-size: .426667rem;
         color: #666;
         text-align: center;
-        line-height: 30px;
+        line-height: .8rem;
     }
 }

@@ -7,11 +7,7 @@ import Header from '../../components/header/Header'
 const Job = (props)=>{
     return(
         <div className='page subpage' id='job'>
-            <Header title='拉勾网' right={
-                <span className="iconfont iconshouye"></span>
-            } left={
-                <span>back</span>
-            } />
+            <Header title='拉勾网'/>
             <h1>职业</h1>
         </div>
     )
