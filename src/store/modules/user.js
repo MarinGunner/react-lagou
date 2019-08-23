@@ -1,6 +1,6 @@
 //初始化state
 const initialState = {
-    isLogin:false,
+    isLogin:true,
     userInfo:{}
 }
 
