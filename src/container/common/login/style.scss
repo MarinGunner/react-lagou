@@ -1,0 +1,89 @@
+#login {
+    .content {
+        .logo {
+            width: 4.266667rem;
+            margin: 1.633333rem auto;
+            display: block;
+            text-align: center;
+        }
+
+        .input-wrap {
+            margin: 0 .266667rem;
+            padding: .133333rem .266667rem;
+            border-bottom: .026667rem solid #aaa;
+            line-height: .8rem;
+            font-size: .373333rem;
+            display: flex;
+            color: #999;
+
+            input {
+                flex: 1;
+                outline: none;
+                font-size: .48rem;
+                width: 2.666667rem;
+            }
+
+            span {
+                border: .026667rem solid #ccc;
+                padding: 0 .133333rem;
+                border-radius: .133333rem;
+                color: #555;
+
+                &.disable {
+                    color: #aaa;
+                }
+            }
+        }
+
+        .login-btn {
+            margin: .266667rem;
+            background: #00b38a;
+            line-height: 1.066667rem;
+            color: #fff;
+            text-align: center;
+            border-radius: .133333rem;
+        }
+
+        .other-login-ways {
+            margin-top: 1.066667rem;
+
+            .title {
+                color: #999;
+                font-size: .32rem;
+                text-align: center;
+                line-height: 1.066667rem;
+            }
+
+            .login-ways {
+                width: 6.4rem;
+                margin: 0 auto;
+                display: flex;
+
+                .login-item {
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        width: .586667rem;
+                        height: .586667rem;
+                    }
+
+                    span {
+                        padding: 0 .133333rem;
+                        color: #7F7F7F;
+                        font-size: .373333rem;
+                        line-height: .586667rem;
+                    }
+
+                    border-right: .026667rem solid #7F7F7F;
+
+                    &:last-of-type {
+                        border-right: none;
+                    }
+                }
+            }
+        }
+
+    }
+}
