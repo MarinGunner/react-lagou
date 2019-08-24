@@ -1,5 +1,5 @@
-import api from '../../utlis/api';
-import {get} from '../../utlis/request';
+import api from '../../utils/api';
+import {get} from '../../utils/request';
 
 // types
 const TOGGLE_LOCATION = "search/toggle_location";

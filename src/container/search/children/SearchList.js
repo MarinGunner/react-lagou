@@ -3,12 +3,12 @@ import React from 'react';
 const SearchList = (props) =>{
     let {list,loadmore}=props;
 
-    let listDOM = (list.length>0) && list.map(item=>{
+    let listDOM = (list.length>0) && list.map((item,index)=>{
         // 处理图片路径
         let newItem = item.companyLogo.split('');
         newItem.unshift("https://www.lgstatic.com/");
         return(
-            <li key={item.companyId} className="search-item border-bottom">
+            <li key={index} className="search-item border-bottom">
                 <div className="companyLogo">
                     <img src={newItem.join('')} alt=""/>
                 </div>
