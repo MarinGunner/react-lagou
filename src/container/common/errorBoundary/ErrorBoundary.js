@@ -16,9 +16,7 @@ export default class ErrorBoundary extends Component{
         }
     }
     render(){
-        
-        console.log('render');
-        
+          
         return this.state.isError?<ErrorPanel/>:this.props.children;
     }
     componentDidCatch(){

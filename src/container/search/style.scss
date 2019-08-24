@@ -1,0 +1,105 @@
+#search{
+    .content{
+        .linputer{
+            display: flex;
+            height: 1.375rem;
+            line-height: 1.375rem;
+            .city{
+                font-size: 0.5rem;
+                padding: 0 0.625rem;
+            }
+            .rinput{
+                width: 77%;
+                display: flex;
+                
+                .inputer{
+                    border: 0;
+                    width: 6.25rem;
+                    font-size: 0.5rem;
+                    text-indent: 1em;
+                }
+                .search{
+                    flex: 1;
+                    text-align: center;
+                    font-size: 0.5rem;
+                }
+            }
+        }
+        .location{
+            .city-header{
+                height: 0.7813rem;
+                line-height: 0.7813rem;
+                padding: 0 0.4688rem;
+                font-size: .367rem;
+                color: #888;
+            }
+            .city-list{
+                display: flex;
+                flex-wrap: wrap;
+                .city-item{
+                    flex: 33%;
+                    height: 1.875rem;
+                    line-height: 1.875rem;
+                    text-align: center;
+                    font-size: .47rem;
+                    color: #333;
+                    &.selected{
+                        background-color: #e7f3f0;
+                        font-weight: bold;
+                    }    
+                }
+            }
+        }
+        .search-list{
+            .search-item{
+                display: flex;
+                padding: 0.4375rem;
+                .companyLogo{
+                    width: 1.875rem;
+                    height: 1.875rem;
+                    margin-right: 0.3125rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .info-wrap{
+                    display: flex;
+                    flex:1;
+                    justify-content: space-between;
+                    align-items: center;
+                    .info{
+                        .companyName{
+                            font-size: 0.5rem;
+                            font-weight: bold;
+                            padding: 0.1rem 0;
+                        }
+                        .positionName{
+                            font-size: 0.36rem;
+                            padding: 0.1rem 0;
+                        }
+                        .ellipsis{
+                            width: 4rem;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                        .createTime{
+                            font-size: 0.3rem;
+                            color: #888;
+                            padding: 0.1rem 0;
+                        }
+                    }
+                    .salary{
+                        font-size: 0.5rem;
+                        color: #00b38a;
+                    }
+                }
+            }
+            .loadmore{
+                text-align: center;
+                padding: 0.3rem 0 ;
+                font-size: 0.4rem;
+            }
+        }
+    }
+}

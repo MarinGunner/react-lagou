@@ -17,6 +17,7 @@ html, body, #app-root, .app{
 .page .content{
     width: 100%;
     position: absolute;
-    top: 44px;
+    top: 1.375rem;
     bottom: 0;
+    overflow: auto;
 }
