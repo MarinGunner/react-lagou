@@ -16,6 +16,7 @@ const Job = lazy(() => import('./container/job/Job'));
 const Search = lazy(() => import('./container/search/Search'));
 const Mine = lazy(() => import('./container/mine/Mine'));
 
+
 const AppPanel = (props) => {
   return (
     <Router>
@@ -25,13 +26,12 @@ const AppPanel = (props) => {
           <Route path="/" exact render={() => {
             return <Redirect to="/job" />
           }} />
-
           <Route path='/job' component={Job} />
           <Route path='/search' component={Search} />
           <Route path='/mine' component={Mine} />
-          
           <Route path='**' component={NotFind} />
         </Switch>
+    
         <TabBar />
       </div>
     </Router>

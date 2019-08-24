@@ -1,14 +1,19 @@
-import { createStore, combineReducers, compose } from 'redux'
+import { createStore, combineReducers, compose,applyMiddleware } from 'redux';
+import thunk from "redux-thunk";
 
 //引入reducer模块
-import user from './modules/user'   
+import user from './modules/user';
+import search from './modules/search';
+
 
 //合并reducer
 const reducer = combineReducers({
-    user,
+    user,search
 });
 
 //使用开发者工具：
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-export default createStore(reducer, composeEnhancers())
+export default createStore(reducer, composeEnhancers(
+    applyMiddleware(thunk)
+))
