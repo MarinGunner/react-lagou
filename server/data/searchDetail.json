@@ -1,0 +1,227 @@
+[
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6317533,
+        "positionName": "前端开发工程师（深业上城）",
+        "city": "深圳",
+        "createTime": "昨天 16:33",
+        "salary": "10k-14k",
+        "companyId": 117217,
+        "companyLogo": "i/image/M00/10/8F/CgqKkVbf8TKACeAMAAAop3DnaW4486.png",
+        "companyName": "博悦科创",
+        "companyFullName": "深圳市博悦科创科技有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6324034,
+        "positionName": "前端工程师",
+        "city": "深圳",
+        "createTime": "昨天 12:28",
+        "salary": "12k-22k",
+        "companyId": 760686,
+        "companyLogo": "i/image2/M01/73/CF/CgotOV1ONf6AbKfRAAUyHWKHNH8535.png",
+        "companyName": "倍蓰",
+        "companyFullName": "倍蓰（北京）技术有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6190501,
+        "positionName": "前端开发工程师",
+        "city": "北京",
+        "createTime": "2019-08-17",
+        "salary": "15k-30k",
+        "companyId": 147,
+        "companyLogo": "i/image2/M01/79/70/CgotOV1aS4qAWK6WAAAM4NTpXws809.png",
+        "companyName": "拉勾网",
+        "companyFullName": "北京拉勾网络技术有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6325103,
+        "positionName": "前端开发工程师（react）",
+        "city": "上海",
+        "createTime": "昨天 15:20",
+        "salary": "15k-25k",
+        "companyId": 104862,
+        "companyLogo": "i/image/M00/00/C6/Cgp3O1ZVZBqAcz0-AAAJFMjCGic591.gif",
+        "companyName": "PwC",
+        "companyFullName": "普华永道信息技术（上海）有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6321856,
+        "positionName": "前端开发工程师",
+        "city": "上海",
+        "createTime": "昨天 10:18",
+        "salary": "20k-30k",
+        "companyId": 1403,
+        "companyLogo": "i/image/M00/00/F2/Cgp3O1ZcCReAA5uDAAAJbV2Q6qA261.jpg",
+        "companyName": "爱回收",
+        "companyFullName": "上海悦易网络信息技术有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6320535,
+        "positionName": "前端开发工程师",
+        "city": "上海",
+        "createTime": "昨天 16:43",
+        "salary": "10k-15k",
+        "companyId": 188444,
+        "companyLogo": "i/image2/M01/1E/F4/CgoB5ly5pVuAPqQwAAArReCIEQQ684.png",
+        "companyName": "Linkflow",
+        "companyFullName": "上海源犀信息科技有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6315980,
+        "positionName": "前端开发",
+        "city": "上海",
+        "createTime": "昨天 10:03",
+        "salary": "14k-18k",
+        "companyId": 93141,
+        "companyLogo": "i/image2/M01/52/F4/CgotOV0UZDuALGQ0AAAOVzci2fk896.png",
+        "companyName": "信用算力",
+        "companyFullName": "鑫涌算力信息科技（上海）有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6325325,
+        "positionName": "前端工程师",
+        "city": "北京",
+        "createTime": "昨天 18:02",
+        "salary": "10k-20k",
+        "companyId": 389739,
+        "companyLogo": "i/image3/M00/52/11/Cgq2xlsD1ZGAXolEAAd9HN0e7n0422.png",
+        "companyName": "ByteTrade",
+        "companyFullName": "北京字节犇牛科技有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6326902,
+        "positionName": "前端开发工程师",
+        "city": "西安",
+        "createTime": "昨天 19:43",
+        "salary": "7k-12k",
+        "companyId": 513488,
+        "companyLogo": "images/logo_default.png",
+        "companyName": "云轻软件",
+        "companyFullName": "西安云轻软件技术有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6318976,
+        "positionName": "前端开发工程师",
+        "city": "北京",
+        "createTime": "昨天 18:22",
+        "salary": "20k-30k",
+        "companyId": 917,
+        "companyLogo": "i/image/M00/37/20/CgqKkVdfms6Ac6dNAABY3gBvuqI944.jpg",
+        "companyName": "极光",
+        "companyFullName": "深圳市和讯华谷信息技术有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6314285,
+        "positionName": "前端研发工程师",
+        "city": "北京",
+        "createTime": "昨天 17:05",
+        "salary": "15k-25k",
+        "companyId": 146407,
+        "companyLogo": "i/image3/M00/46/B5/CgpOIFrDMNKAIbIoAABTKiA237w110.png",
+        "companyName": "火花思维",
+        "companyFullName": "北京心更远科技发展有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6323094,
+        "positionName": "前端开发（网页设计）",
+        "city": "广州",
+        "createTime": "昨天 15:11",
+        "salary": "8k-15k",
+        "companyId": 566677,
+        "companyLogo": "i/image2/M01/3A/7D/CgotOVzrqjSASZT9AAC48X5wwf4360.png",
+        "companyName": "米多多游戏",
+        "companyFullName": "广州米多多网络科技有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6317624,
+        "positionName": "前端开发工程师",
+        "city": "深圳",
+        "createTime": "2019-08-22",
+        "salary": "13k-16k",
+        "companyId": 124652,
+        "companyLogo": "i/image2/M01/28/D8/CgotOVzPyauAMybNAAA8zQprrtk576.jpg",
+        "companyName": "微创软件",
+        "companyFullName": "上海微创软件股份有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6322885,
+        "positionName": "前端开发工程师",
+        "city": "深圳",
+        "createTime": "昨天 10:25",
+        "salary": "16k-30k",
+        "companyId": 82759432,
+        "companyLogo": "i/image2/M01/7B/DE/CgoB5l1eX0SAPLanAAAGvx9jSKc786.png",
+        "companyName": "合壮科技",
+        "companyFullName": "深圳市合壮科技有限公司"
+    },
+    {
+        "logger": {
+            "traceCapable": true,
+            "name": "com.lagou.entity.mobile.MobilePosition"
+        },
+        "positionId": 6322684,
+        "positionName": "前端工程师",
+        "city": "上海",
+        "createTime": "今天 07:39",
+        "salary": "15k-30k",
+        "companyId": 82761517,
+        "companyLogo": "i/image2/M01/7C/4A/CgotOV1fRuCAOehgAADJIgZv1Wg179.png",
+        "companyName": "鸣石投资",
+        "companyFullName": "上海鸣石投资管理有限公司"
+    }
+]

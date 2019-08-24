@@ -38,6 +38,21 @@ app.use(bodyParser());
 
 app.use('/api/user', require('./routers/userRouter'));
 
+app.get("/api/search/city",(req,res)=>{
+  res.json({
+      code:0,
+      message: "ok",
+      data:require("./data/city.json")
+  })
+})
+app.get("/api/search/detail",(req,res)=>{
+  res.json({
+      code:0,
+      message: "ok",
+      data:require("./data/searchDetail.json")
+  })
+})
+
 
 // 连接数据库
 mongoose.connect(config.mongodbUrl, (error)=>{
