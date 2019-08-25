@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux'
+import { BrowserRouter as Router, NavLink } from 'react-router-dom';
 import { Toast } from 'antd-mobile';
 import Header from '../../../components/header/Header'
 import { requestSendCodeAction, requestLoginByCodeAction, requestCheckLoginAction } from '../../../store/modules/user'
@@ -25,7 +26,7 @@ class Login extends React.Component {
         let { phone, code } = this.state;
         return (
             <div id="login" className="page subpage">
-                <Header title='拉勾网'/>
+                <Header title='拉勾网' />
                 <div className="content">
                     <img className="logo" src="/images/head.jpg" alt="logo" />
 
@@ -41,7 +42,9 @@ class Login extends React.Component {
                         <input type="text" value={code} onChange={this.codeChangeAction} />
                     </div>
                     <div className="login-btn" onClick={() => loginByCodeAction(phone, code)}>
-                        登录
+                        <Router>
+                            {loginByCodeAction ? <NavLink to='/mine/login/Login/Minelogin'>登录</NavLink> : ''}
+                        </Router>
                     </div>
 
                     <div className="other-login-ways">

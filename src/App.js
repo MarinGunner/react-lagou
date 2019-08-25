@@ -1,21 +1,24 @@
-import React, { lazy, Suspense } from 'react'
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
-import { connect } from 'react-redux'
+import React, { lazy, Suspense } from 'react';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import { connect } from 'react-redux';
 
-//引入登录页面：
-import Login from './container/common/login/Login'
+//引入导航栏：
+import TabBar from './components/tabbar/TabBar';
 //引入加载页
 import Loading from './container/common/loading/Loading';
 //引入错误页：
-import NotFind from './container/common/notFind/NotFind'
-//引入导航栏：
-import TabBar from './components/tabbar/TabBar'
+import NotFind from './container/common/notFind/NotFind';
+
 
 //引入跟页面：
 const Job = lazy(() => import('./container/job/Job'));
 const Search = lazy(() => import('./container/search/Search'));
 const Mine = lazy(() => import('./container/mine/Mine'));
 
+//引入子页面：
+//我的子页面：
+const Login = lazy(() => import('./container/common/login/Login'));
+const MineLogin = lazy(() => import('./container/mine/child/MineLogin'))
 
 const AppPanel = (props) => {
   return (
@@ -31,7 +34,8 @@ const AppPanel = (props) => {
           <Route path='/mine' component={Mine} />
           <Route path='**' component={NotFind} />
         </Switch>
-    
+        <Route path='/mine/login' component={Login} />
+        <Route path='/mine/login/Login/minelogin' component={MineLogin} />
         <TabBar />
       </div>
     </Router>
