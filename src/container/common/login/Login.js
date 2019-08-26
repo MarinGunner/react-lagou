@@ -5,7 +5,7 @@ import { Toast } from 'antd-mobile';
 import Header from '../../../components/header/Header'
 import { requestSendCodeAction, requestLoginByCodeAction, requestCheckLoginAction } from '../../../store/modules/user'
 import './style.scss'
-import 'antd-mobile/lib/toast/style/css';
+// import 'antd-mobile/lib/toast/style/css';
 
 class Login extends React.Component {
 

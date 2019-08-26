@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const session = require('express-session');
 const MongoDBStore = require('connect-mongodb-session')(session);
 const config = require('./config');
-
+const https = require('https')
 // 创建保存session的仓库
 var store = new MongoDBStore({
   uri: config.mongodbUrl,
@@ -31,7 +31,11 @@ app.use(require('express-session')({
     resave: true,
     saveUninitialized: true
 }));
-   
+  
+
+
+
+
 
 app.use(bodyParser());
 
@@ -52,6 +56,32 @@ app.get("/api/search/detail",(req,res)=>{
       data:require("./data/searchDetail.json")
   })
 })
+
+
+app.get('/api/list',(req,res)=>{
+  console.log('有请求过来')
+  res.json({
+      state:1,
+      message:'ok',
+      data:require('./data/list.json')
+  });
+})
+
+//如果是listmore开头
+app.use('/listmore',(req,res)=>{
+  
+  https.get('https://m.lagou.com/listmore.json'+(req.url.replace(/\//,'')),(response)=>{
+      let result = '';
+      response.on('data',data=>{
+          result+= data;
+      })
+      response.on('end',()=>{
+          res.json(JSON.parse(result));
+      })
+  })
+  .end();
+});
+
 
 
 // 连接数据库

@@ -12,11 +12,17 @@ const SEARCH_CITY_URL = "/api/search/city";
 const SEARCH_DETAIL_URL = "/api/search/detail";
 const SEARCH_MORE_DETAIL_URL = "/api/search/detail/more";
 
+//请求首页前十五条的数据
+const SET_LIST = '/api/list'
+const SET_LISTMORE_API = '/listmore'
+
 export default {
     SEND_CODE_API,
     LOGIN_BY_CODE_API,
     CHECK_LOGIN_API,
     SEARCH_CITY_URL,
     SEARCH_DETAIL_URL,
-    SEARCH_MORE_DETAIL_URL
+    SEARCH_MORE_DETAIL_URL,
+    SET_LIST,
+    SET_LISTMORE_API
 }

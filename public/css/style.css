@@ -11,6 +11,7 @@ html, body, #app-root, .app{
     bottom: 49px;
 }
 .page.subpage{
+    width:100%;
     bottom: 0;
     z-index: 10;
 }

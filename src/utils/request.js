@@ -45,6 +45,32 @@ export const post = async (url, params = {})=>{
     }
 }
 
+export const myGet = async (url,params={})=>{
+    try {
+        let fullParams = '';
+        Object.entries(params).forEach(([key,value],index)=>{
+            if (index === 0){
+                fullParams += '?';
+                
+            }else{
+                fullParams += '&';
+            }
+            fullParams += `${key}=${encodeURIComponent(value)}`
+        });
+        let response = await fetch(`${url}${fullParams}`);
+        let result = await response.json();
+        if(result.state===1){
+            return result;
+        }else{
+            return result;
+        }
+            
+       
+    } catch (error) {
+        throw error;
+    }
+}
+
 export default {
     get,
     post
