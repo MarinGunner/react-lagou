@@ -15,6 +15,9 @@ import TabBar from './components/tabbar/TabBar'
 const Job = lazy(() => import('./container/job/Job'));
 const Search = lazy(() => import('./container/search/Search'));
 const Mine = lazy(() => import('./container/mine/Mine'));
+//引入子页面
+const Detail = lazy(()=>import('./container/job/children/detail/Detail')); 
+
 
 const AppPanel = (props) => {
   return (
@@ -32,6 +35,9 @@ const AppPanel = (props) => {
           
           <Route path='**' component={NotFind} />
         </Switch>
+
+        {/* 子页面 */}
+          <Route path="/job/detail/:positionid" component={Detail} />
         <TabBar />
       </div>
     </Router>

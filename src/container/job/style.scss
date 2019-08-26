@@ -1,5 +1,119 @@
-.page{
+#job{
     width: 100%;
-    height: 100%;
     background: #fafafa;
+    .job-wrap{
+        position: absolute;
+        left:0;
+        width:100%;
+        top:45px;
+        bottom:49px;
+
+            .custom-info{
+                border-bottom: 1px solid #e8e8e8;
+                height: 43px;
+                line-height: 43px;
+                padding: 0 15px;
+                color: #555;
+                font-size: 14px;
+                display:flex;
+                justify-content:space-between;
+                span{
+                    &:nth-of-type(1){
+    
+                    }  
+                    &:nth-of-type(2){
+                        background-color: #f5f5f5;
+                        padding: 0 20px;
+                        height: 30px;
+                        line-height: 30px;
+                        display:inline-block;
+                        margin:auto 0;
+                        color: #00b38a;
+                        border-radius: 15px;
+                    }    
+                }
+            }
+    
+            .job-list{
+                background:#FFF;
+                display:flex;
+                padding: 14px;
+                &.active{
+                    background:#eee;
+                }
+                .job-logo{
+                    img{
+                        height:60px;
+                        width:60px;
+                    }  
+                }
+                .job-detail{
+                    margin-left:14px;
+                    p{
+                        
+                        &.company-name{
+                            font-size: 16px;
+                            margin-bottom: 6px;
+                            font-weight:600;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                        &.position{
+                            // display:flex;
+                            // justify-content: space-between;
+                            font-weight:normal;
+                            width:100%;
+                            .position-name{
+                                font-size: 14px;
+                                display: inline-block;
+                                width:80%;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                            .salary{
+                                font-size: 16px;
+                                color: #00b38a;
+                                position: absolute;
+                                right:14px;
+                            }
+                        }
+                        &:nth-of-type(3){
+                            font-weight:normal;
+                            font-size: 12px;
+                            color: #888;
+                        }
+                    }
+                }
+            }
+            .getMore{
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                font-size: 16px;
+                background-color: #fafafa;
+            }
+               
+            .copyright{
+                background:#fff;
+                text-align: center;
+                font-size: 12px;
+                padding-top: 30px;
+                padding-bottom: 40px;
+               
+                color: #333333;
+                .copyright-item{
+                    
+                    height: 32px;
+                    line-height: 32px;
+                    span{
+                        margin-right:5px;
+                        &.active{
+                            color: #999;
+                        }
+                    }
+                }
+            }
+    }
 }

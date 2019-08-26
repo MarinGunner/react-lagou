@@ -1,0 +1,229 @@
+#detail{
+    background:#fff;
+    bottom:0;
+    z-index:11;
+    .detail-header{
+        height: 45px;
+        background-color: #00b38a;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        .detail-title{
+            line-height:45px;
+        }
+        .btn{
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%);
+            &.left-btn{
+                left:10px;
+            }
+            &.right-btn{
+                right:10px;
+            }
+        }
+    }
+
+    .detail-scroll{
+        position:absolute;
+        left:0;
+        top:45px;
+        width:100%;
+        bottom:0;
+        .detail-wrap{
+            display:flex;
+            justify-content: space-between;
+            padding:0 15px;
+            h2{
+                color: #333;
+                font-size: 18px;
+                max-width: 70%;
+                overflow: hidden;
+                font-weight:600;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                line-height:48px;
+            }
+            .collection{
+                text-align:center;
+                padding: 6px 10px 0 10px;
+                i{
+                    height:15px;
+                    width:15px;
+                    margin:0 auto;
+                    display:block;
+                    background: url(/images/icon.png) no-repeat -170px -41px;
+                    background-size: 250px 250px;
+                }
+                span{
+                    line-height:30px;
+                    color: #888;
+                }
+            }
+        }
+
+        .detail-info{
+            min-height: 10px;
+            padding: 15px;
+            display:flex;
+            flex-wrap:wrap;
+            .info-item{
+                
+                color: #333;
+                font-size:14px;
+                width: 33.33%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                margin-bottom: 11px;
+                i{
+                    display: inline-block;
+                    height: 13px;
+                    width: 13px;
+                    vertical-align: middle;
+                }
+                span{
+
+                }
+                &:nth-of-type(1){
+                    i{
+                        background: url(/images/icon.png) no-repeat -66px -48px;
+                        background-size: 250px 250px;
+                    }
+                }
+                &:nth-of-type(2){
+                    i{
+                        background: url(/images/icon.png) no-repeat -79px -49px;
+                        background-size: 250px 250px;
+                    }
+                }
+                &:nth-of-type(3){
+                    i{
+                        background: url(/images/icon.png) no-repeat -93px -49px;
+                        background-size: 250px 250px;
+                    }
+                }
+                &:nth-of-type(4){
+                    i{
+                        background: url(/images/icon.png) no-repeat -110.5px -49.5px;
+                        background-size: 250px 250px;
+                    }
+                }
+                &:nth-of-type(5){
+                    i{
+                        background: url(/images/icon.png) no-repeat -127.5px -49px;
+                        background-size: 250px 250px;
+                    }
+                }
+            }
+           .goodness{
+            color: #888;
+            width:100%;
+            font-size: 12px;
+           }
+        }
+        .company-info{
+            background:#FFF;
+            display:flex;
+            padding: 14px;
+            position:relative;
+            &.active{
+                background:#eee;
+            }
+            .job-logo{
+                img{
+                    height:60px;
+                    width:60px;
+                }  
+            }
+            .job-detail{
+                margin-left:14px;
+                p{
+                    
+                    &.company-name{
+                        font-size: 16px;
+                        margin-bottom: 6px;
+                        font-weight:600;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    &.position{
+                        // display:flex;
+                        // justify-content: space-between;
+                        font-weight:normal;
+                        width:100%;
+                        .position-name{
+                            font-size: 14px;
+                            display: inline-block;
+                            width:80%;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                    &:nth-of-type(3){
+                        font-weight:normal;
+                        font-size: 12px;
+                        color: #888;
+                    }
+                }
+            }
+            .job-image{
+                position:absolute;
+                right:15px;
+                span{
+                    display: inline-block;
+                    width: 23px;
+                    height: 29px;
+                    background: url(/images/icon.png) no-repeat -222.5px -3.5px;
+                    background-size: 250px 250px;
+                    margin-top: 10px;
+                    
+                }
+            }
+        }
+
+        .describle{
+            height: 36px;
+            line-height: 36px;
+            padding-left: 15px;
+            color: #00b38a;
+            font-weight:normal;
+            font-size: 14px;
+            background-color: #d2f9f0;
+        }
+        .describle-word{
+            word-break: break-all;
+            padding: 15px;
+            color: #555;
+            font-size: 12px;
+            line-height: 22px;
+        }
+        
+    }
+    
+    .detail-foot{
+        background:#fff;
+        padding:5px;
+        width:100%;
+        box-sizing:border-box;
+        position: absolute;
+        bottom:0;
+        left:0;
+        span{ 
+            width:100%;
+            display:block;
+            height:44px;
+            line-height:49px;
+            z-index:12;
+            background-color: #00b38a;
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 3px;
+        }
+    }
+
+}
