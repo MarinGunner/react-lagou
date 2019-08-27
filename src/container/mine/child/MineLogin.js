@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { toggleLocation } from '../../../store/modules/search';
+import './style.scss'
 
 //引入头部公共组件：
 import Header from '../../../components/header/Header'
@@ -13,12 +14,7 @@ const MineLogin = (props) => {
             } />
             <div className="content">
                 <div className="login">
-                    <h3>
-                        <img src="../../../public/images/pic.jpeg" alt="" />
-                    </h3>
-                    <div className="name">
-                        XXX
-                    </div>
+                    <img src="/images/pic.jpg" alt="" />
                     <span className="resume">
                         简历>
                     </span>

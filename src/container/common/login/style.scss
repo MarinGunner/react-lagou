@@ -1,5 +1,8 @@
 #login {
     .content {
+        position: absolute;
+        z-index: 15;
+
         .logo {
             width: 4.266667rem;
             margin: .633333rem auto;

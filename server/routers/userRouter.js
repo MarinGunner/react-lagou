@@ -98,7 +98,8 @@ router.get('/check_login', (req, res)=>{
         //登录没有过期
         res.json({
             code:0,
-            message: '用户没有过期'
+            message: '用户没有过期',
+            data:req.session.userInfo
         })
     }else{
         //过期了

@@ -8,7 +8,7 @@ const schema = new mongoose.Schema({
     },
     name: {
         type: String,
-        default: '喜茶时光'
+        default: '混世魔王'
     }
 })
 

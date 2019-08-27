@@ -1,5 +1,4 @@
 import React from 'react';
-import AppHeader from '../../../../components/header/Header'
 import AppScroll from '../../../../components/scroll/AppScroll'
 import {connect} from 'react-redux'
 import {setCollect} from '../../../../store/modules/collect'
@@ -10,7 +9,7 @@ class Detail extends React.Component {
         listData:[]
     }
     render() {
-        let {list,listmore,collectJob} = this.props
+        let {collectJob} = this.props
         let {listData} = this.state
         let listDOM=listData.map(item=>(
                 <div key={item.positionId}>

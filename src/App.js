@@ -15,8 +15,7 @@ const Job = lazy(() => import('./container/job/Job'));
 const Search = lazy(() => import('./container/search/Search'));
 const Mine = lazy(() => import('./container/mine/Mine'));
 //引入子页面
-const Detail = lazy(()=>import('./container/job/children/detail/Detail')); 
-
+const Detail = lazy(() => import('./container/job/children/detail/Detail'));
 
 //引入子页面：
 //我的子页面：
@@ -39,11 +38,10 @@ const AppPanel = (props) => {
         </Switch>
 
         <Route path='/mine/login' component={Login} />
-        <Route path='/mine/login/Login/minelogin' component={MineLogin} />
-
+        <Route path='/mine/login/Login/Minelogin' component={MineLogin} />
 
         {/* 子页面 */}
-          <Route path="/job/detail/:positionid" component={Detail} />
+        <Route path="/job/detail/:positionid" component={Detail} />
 
         <TabBar />
       </div>

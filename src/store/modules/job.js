@@ -1,4 +1,4 @@
-import {get,myGet,post} from '../../utils/request'
+import {myGet} from '../../utils/request'
 import api from '../../utils/api'
 
 //types
